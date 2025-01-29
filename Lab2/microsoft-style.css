@@ -1,0 +1,289 @@
+#top-panel{
+    width: 1519.200px;
+    height: 54px;
+}
+#top-block{
+    width: 1367px;
+    height: 54px;
+    padding-left: 75.950px;
+    padding-right: 75.950px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+#microsoft-logo{
+    width: 121px;
+    height: 22px;
+    padding-left: 10px;
+    padding-right: 6px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-self: center;
+}
+#items{
+    width: 860.237px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#microsoft-365{
+    width: 79.163px;
+    height: 20.400px;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color:black;
+
+}
+#office{
+    width:33.900px;
+    height: 20.400px;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    margin-top: 1px;
+    text-decoration: none;
+    color:black;
+
+}
+#windows{
+    width: 52.838px;
+    height: 20.400px;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color:black;
+}
+#support{
+    width: 68.325px;
+    height: 20.400px;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color:black;
+
+}
+#utilit-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+#products{
+    width: 137.950px;
+    height: 19.500px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 1px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+}
+#search{
+    width: 50.950px;
+    height: 19.500px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    padding-right: 40px;
+    margin-top: 1px;
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+}
+#middle-panel{
+    width: 1519.200px;
+    height: 539px;
+    margin-bottom: 48px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+}
+#panel-image{
+    width: 1519.200px;
+    height: 539px;
+    z-index: 1;
+    position: absolute;
+}
+#text-part{
+    width: 473.688px;
+    height: 244px;
+    padding-left: 123.950px;
+    padding-right: 48px;
+    padding-top: 5px;
+    padding-bottom: 48px;
+    z-index: 2;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: 400px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+#text-paragraph{
+    width: 473.688px;
+    height: 72px;
+    margin-bottom: 5px;
+}
+#text-header{
+    width: 473.688px;
+    height: 88.8px;
+    margin-top: 5px;
+    font-size: 34px;
+    line-height: 50.4px;
+}
+#link-block{
+    width: 473.69px;
+    height: 55.2px;
+    padding-top: 30px;
+
+}
+#link{
+    width: 213.362px;
+    height: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top:8px;
+    margin-bottom: 8px;
+    background-color: rgb(0, 103, 184);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color:white;
+}
+#low-panel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#low-block{
+    height: 44px;
+    padding-left: 639.5px;
+    padding-right: 639.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.buttons{
+    width: 30px;
+    height: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#cards{
+    width: 1367.280px;
+    height: 431.500px;
+    padding-left: 75.950px;
+    padding-right: 75.950px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width:323.813px;
+    height: 431.500px;
+    padding-left: 12px;
+    padding-right:12px; 
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px 0px;
+    margin-left: 8px;
+    margin-right:8px;
+
+}
+.card-images{
+    width: 323.81px;
+    height: 181.5px;
+}
+.card-headers{
+    width: 275.812px;
+    height: 35.800px;
+    margin-bottom: 16px;
+    margin-top: 24.070px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+}   
+.card-blocks{
+    width: 275.812px;
+    height: 96px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.link-block{
+    width: 275.812px;
+    height: 55.200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.card-links{
+    width: 85.513px;
+    height: 16px;
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 13px;
+    margin-top:8px;
+    margin-bottom: 8px;
+    border-bottom: 1.6px;
+    border-top: 1.600px;
+    border-left: 1.600px;
+    border-right: 1.600px ;
+    text-decoration: none;
+    background-color: rgb(0, 103, 184);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+#budte{
+    margin-top: 50px;
+    height: 60px;
+}
+#card-links-podrobnee{
+    width: 115.513px;
+    height: 16px;
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 13px;
+    margin-top:8px;
+    margin-bottom: 8px;
+    border-bottom: 1.6px;
+    border-top: 1.600px;
+    border-left: 1.600px;
+    border-right: 1.600px ;
+    text-decoration: none;
+    background-color: rgb(0, 103, 184);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
