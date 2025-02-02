@@ -21,9 +21,6 @@ body{
     left: 32%;
     top: 1%;
     display: flex;
-
-
-
 }
 #phones{
     position: absolute;
@@ -58,9 +55,6 @@ body{
     margin-top: 36px;
     margin-bottom: 12px;
 }
-
-
-
 
 #download{
     display: flex;
@@ -118,7 +112,6 @@ body{
     margin-left: 40px;
     margin-right: 40px;
     align-items: center;
-
 }
 #button{
     width: 263.4px;
