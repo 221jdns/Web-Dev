@@ -1,0 +1,40 @@
+let obj = {};
+
+function A() { return obj; }
+function B() { return obj; }
+
+alert( new A() == new B() );
+
+
+
+function Calculator(){
+    this.read = function(){
+        this.a = +prompt('a', 0 );
+        this.b = +prompt('b', 0 );
+    }
+    this.sum = function(){      // about "this" statement, function and initialization
+        return this.a + this.b;
+    }
+    this.mul = function(){
+        return this.a * this.b;
+    }
+}
+
+let calculator = new Calculator();
+calculator.read();
+alert( "Sum=" + calculator.sum() );
+alert( "Mul=" + calculator.mul() );
+
+
+
+function Accumulator(startnigValue){
+    this.value = startnigValue;
+    this.read = function(){
+        this.value += +prompt('Add',0);
+    }
+}
+
+let accumulator = new Accumulator(1);
+accumulator.read();
+accumulator.read();
+alert(accumulator.value);
