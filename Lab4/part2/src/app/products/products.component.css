@@ -1,0 +1,65 @@
+.products {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+  
+  .products:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-photo {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .product-name {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .product-description {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .product-rating {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4b2b;
+  }
+  .product-link{
+    text-decoration: none;
+    color:inherit;
+  }
+  .share-btn {
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .whatsapp-btn {
+    background-color: #25D366; /* Зеленый для WhatsApp */
+  }
+  
+  .telegram-btn {
+    background-color: #0088CC; /* Синий для Telegram */
+  }
+  
+  .share-btn:hover {
+    opacity: 0.8;
+  }
+  
+  
