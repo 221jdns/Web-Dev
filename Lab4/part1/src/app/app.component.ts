@@ -22,7 +22,7 @@ import { RouterModule } from '@angular/router';
       </section>
     </main>
   `,
-  imports: [HomeComponent,RouterModule],
+  imports: [HomeComponent,RouterModule, CommonModule],
 })
 export class AppComponent {
   title = 'part1';

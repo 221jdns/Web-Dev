@@ -32,12 +32,15 @@ export class HomeComponent {
         this.filteredLocationList = housingLocationList;
       });
   }
-  filteredResults(text: string){
-    if (!text) this.filteredLocationList = this.housingLocationList;
-
+  filteredResults(text: string) {
+    if (!text) {
+      this.filteredLocationList = this.housingLocationList;
+      return;
+    }
+  
     this.filteredLocationList = this.housingLocationList.filter(
       housingLocation => housingLocation?.city.toLowerCase().includes(text.toLowerCase())
     );
-  
   }
+  
 }
