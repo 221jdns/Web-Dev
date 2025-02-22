@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   template: `
   <a [href]="productDescription.link" target="_blank" class="product-link">
-  <section class="products">
+  <section class="products" >
     <img class="product-photo" [src]="productDescription.image">
     <h2 class="product-name">{{ productDescription.name }}</h2>
     <p class="product-description">{{ productDescription.description }}</p>
