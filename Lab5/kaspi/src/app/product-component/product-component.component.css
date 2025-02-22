@@ -1,0 +1,127 @@
+.product-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  gap: 20px;
+  justify-content: center; 
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  width: 275px;
+  height: 440px;
+  flex-grow: 1;
+}
+
+.products:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.product-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.product-name {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.product-description {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff4b2b;
+}
+.product-link{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-decoration: none;
+  color:inherit;
+  margin-top:15px;
+}
+
+
+.whatsapp-btn {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #25D366;
+  width:200px;
+  height: 35px;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+} 
+
+.telegram-btn {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0088CC; 
+  width:200px;
+  height: 35px;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  
+}
+.whatsapp-btn:hover{
+  opacity: 0.8;
+}
+.telegram-btn:hover{
+  opacity: 0.8;
+}
+.like {
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
+  color: gray;
+}
+
+.like:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+
+

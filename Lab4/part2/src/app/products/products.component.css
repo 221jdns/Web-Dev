@@ -51,11 +51,11 @@
   }
   
   .whatsapp-btn {
-    background-color: #25D366; /* Зеленый для WhatsApp */
+    background-color: #25D366; 
   }
   
   .telegram-btn {
-    background-color: #0088CC; /* Синий для Telegram */
+    background-color: #0088CC; 
   }
   
   .share-btn:hover {
