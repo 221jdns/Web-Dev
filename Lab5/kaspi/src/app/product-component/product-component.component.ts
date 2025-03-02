@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ProductDescription } from '../product-description';
 import { ActivatedRoute } from '@angular/router';
 
@@ -30,6 +30,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrl: './product-component.component.css'
 })
 export class ProductComponentComponent implements OnInit {
+  @Input() 
   categoryId!: number;
   filteredProducts: ProductDescription[] = [];
   likes:number = 0;
@@ -252,7 +253,6 @@ export class ProductComponentComponent implements OnInit {
     event.preventDefault();
     product.likes +=1;
   }
-  
 
   shareProduct(product: ProductDescription, platform: string) {
     const message = `Check out this product: ${product.name} - ${product.link}`;
