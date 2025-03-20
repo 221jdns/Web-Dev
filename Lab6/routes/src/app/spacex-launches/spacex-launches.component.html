@@ -1,0 +1,9 @@
+<p>spacex-launches works!</p>
+
+<div *ngIf="this.spaceData">
+    SpaceData
+    <ul *ngFor="let space of this.spaceData">
+        <li>{{space.id}}</li>
+    </ul>
+    <app-launch-filter [data] = this.spaceData ></app-launch-filter>
+</div>

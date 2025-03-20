@@ -5,7 +5,7 @@ import { AlbumsComponentComponent } from '../albums-component/albums-component.c
 
 @Component({
   selector: 'app-home-component',
-  imports: [CommonModule,RouterModule, AlbumsComponentComponent],
+  imports: [CommonModule,RouterModule],
   template: `
     <h1>Home Page</h1>
     <p>Welcome to the album collection app!</p> 
