@@ -1,5 +1,5 @@
 from rest_framework import serializers 
-from .models import Company, Vacancy
+from .models import Company, Vacancy, Label , Artist
 
 class CompanySerializer(serializers.ModelSerializer):
     class Meta:

@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let company of companies" (click)="viewVacancies(company.id)">
+      {{ company.name }}
+    </li>
+</ul>
